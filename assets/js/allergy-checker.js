@@ -83,7 +83,7 @@
     btn.type = "button";
     btn.className = "allergy-fab";
     btn.id = "allergyFab";
-    btn.textContent = "Allergies ?";
+    btn.textContent = "Allergies ?";
     document.body.appendChild(btn);
     return btn;
   }
