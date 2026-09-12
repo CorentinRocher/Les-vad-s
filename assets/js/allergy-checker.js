@@ -221,14 +221,21 @@
     applyBtn.addEventListener("click", function () {
       var sel = currentSelection(overlay);
       save(sel);
+
+      if (!document.querySelector(".dish[data-allergens]")) {
+        // Pas de carte sur cette page : direction la carte, filtrée.
+        window.location.href = sel.length
+          ? "carte.html?allergenes=" + encodeURIComponent(sel.join(","))
+          : "carte.html";
+        return;
+      }
+
       var stats = applyFilterToPage(sel);
       showResult(overlay, sel, stats);
-      if (stats.hasMenu) {
-        var firstFlagged = document.querySelector(".dish.is-ok, .dish.is-avoid");
-        if (firstFlagged) {
-          close();
-          firstFlagged.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
+      var firstFlagged = document.querySelector(".dish.is-ok, .dish.is-avoid");
+      if (firstFlagged) {
+        close();
+        firstFlagged.scrollIntoView({ behavior: "smooth", block: "center" });
       }
     });
 
