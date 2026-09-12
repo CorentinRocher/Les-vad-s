@@ -351,24 +351,12 @@ p {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  background: radial-gradient(circle at 20% 20%, var(--maroon-800), var(--ink-900) 70%);
+  background:
+    linear-gradient(100deg, rgba(22, 17, 13, 0.92) 0%, rgba(22, 17, 13, 0.78) 34%, rgba(58, 12, 17, 0.58) 58%, rgba(58, 12, 17, 0.32) 100%),
+    url("../img/hero-facade.jpg") center 62% / cover no-repeat;
   color: var(--cream-50);
   overflow: hidden;
   padding-block: 96px 70px;
-}
-
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image: repeating-linear-gradient(
-    90deg,
-    rgba(217, 166, 46, 0.07) 0px,
-    rgba(217, 166, 46, 0.07) 3px,
-    transparent 3px,
-    transparent 64px
-  );
-  pointer-events: none;
 }
 
 .hero-inner {
