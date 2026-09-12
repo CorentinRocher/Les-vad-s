@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Carte – Les Évadés | Menu bouchon lyonnais, plats &amp; allergènes</title>
+  <meta name="description" content="Découvrez la carte des Évadés, bouchon lyonnais du Vieux-Lyon : entrées, quenelle, andouillette, tartare, poissons, fromages et desserts. Allergènes indiqués pour chaque plat et filtre interactif.">
+  <link rel="canonical" href="https://www.lesevades-restaurant.fr/carte.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="La Carte – Les Évadés">
+  <meta property="og:description" content="Menu complet du bouchon lyonnais Les Évadés, avec allergènes par plat et assistant de filtrage.">
+  <meta property="og:url" content="https://www.lesevades-restaurant.fr/carte.html">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Menu",
+    "name": "Carte – Les Évadés",
+    "inLanguage": "fr-FR",
+    "url": "https://www.lesevades-restaurant.fr/carte.html",
+    "hasMenuSection": [
+      { "@type": "MenuSection", "name": "Entrées" },
+      { "@type": "MenuSection", "name": "Plats" },
+      { "@type": "MenuSection", "name": "Fromages" },
+      { "@type": "MenuSection", "name": "Desserts" }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">Les Évadés</span>
+        <span class="logo-sub">Bouchon lyonnais · Vieux-Lyon</span>
+      </a>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="carte.html" aria-current="page">La carte</a>
+        <a href="allergies.html">Allergies</a>
+        <a href="acces.html">Où nous trouver</a>
+        <a href="reservation.html">Réserver</a>
+      </nav>
+      <div class="header-actions">
+        <span class="pmr-badge" title="Accès PMR" aria-label="Accès personnes à mobilité réduite">PMR</span>
+        <a class="phone-pill" href="tel:+33472041965"><span class="long">📞 </span>04 72 04 19 65</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section style="padding-bottom:0;">
+      <div class="container">
+        <div class="menu-toolbar">
+          <div>
+            <h2>La carte des Évadés</h2>
+            <p style="margin:0;">Carte de saison — prix nets en euros, TTC, service compris.</p>
+          </div>
+          <button type="button" class="btn btn-gold" onclick="document.getElementById('allergyFab').click()">⚠️ Filtrer selon mes allergies</button>
+        </div>
+
+        <nav class="menu-nav" aria-label="Sections de la carte">
+          <a href="#entrees">Entrées</a>
+          <a href="#sandwicherie">Sandwicherie</a>
+          <a href="#lyonnaiserie">Lyonnaiserie</a>
+          <a href="#legumerie">Légumerie</a>
+          <a href="#boucherie">Boucherie</a>
+          <a href="#poissonnerie">Poissonnerie</a>
+          <a href="#gones">Pour les Gones</a>
+          <a href="#fromages">Fromages</a>
+          <a href="#desserts">Desserts</a>
+          <a href="#vins">Vins</a>
+        </nav>
+
+        <!-- ENTRÉES -->
+        <section class="menu-section" id="entrees">
+          <h2>Entrées</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="radis-beurre" data-allergens="lait">
+              <div class="dish-head"><h3>Radis beurre</h3><span class="price">6 €</span></div>
+              <p class="dish-desc">Beurre aromatisé maison.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="mozzarella-tressee" data-allergens="lait">
+              <div class="dish-head"><h3>Mozzarella di buffala tressée</h3><span class="price">9 €</span></div>
+              <p class="dish-desc">Tomates séchées, basilic et oignons frits.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong> — traces possibles de gluten (oignons frits)</p>
+            </article>
+            <article class="dish" data-dish="oeufs-mayo" data-allergens="oeufs,moutarde">
+              <div class="dish-head"><h3>Œufs mayonnaise</h3><span class="price">6 €</span></div>
+              <p class="dish-desc">Trio de pickles.</p>
+              <p class="dish-allergens">Allergènes : <strong>Œufs, moutarde</strong></p>
+            </article>
+            <article class="dish" data-dish="pate-campagne" data-allergens="gluten,oeufs,fruits-a-coque">
+              <div class="dish-head"><h3>Pâté de campagne</h3><span class="price">9 €</span></div>
+              <p class="dish-desc">Recette de la maison.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, œufs, fruits à coque</strong> (selon recette) — à confirmer avec l'équipe</p>
+            </article>
+            <article class="dish" data-dish="coeur-frisee" data-allergens="lait,moutarde">
+              <div class="dish-head"><h3>Cœur de frisée</h3><span class="price">6 €</span></div>
+              <p class="dish-desc">Fromages frais, herbes et assaisonnement.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait, moutarde</strong></p>
+            </article>
+            <article class="dish" data-dish="harengs" data-allergens="poissons">
+              <div class="dish-head"><h3>Harengs à l'huile et pommes de terre</h3><span class="price">9 €</span></div>
+              <p class="dish-desc">Pommes de terre fondantes.</p>
+              <p class="dish-allergens">Allergènes : <strong>Poissons</strong></p>
+            </article>
+            <article class="dish" data-dish="cervelle-canut-entree" data-allergens="lait">
+              <div class="dish-head"><h3>Cervelle de canut</h3><span class="price">6 €</span></div>
+              <p class="dish-desc">Fromage frais, herbes et assaisonnement maison.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="petite-lyonnaise" data-allergens="oeufs,gluten,lait">
+              <div class="dish-head"><h3>La petite Lyonnaise</h3><span class="price">9 €</span></div>
+              <p class="dish-desc">Œuf parfait, tranche de lard, croûtons.</p>
+              <p class="dish-allergens">Allergènes : <strong>Œufs, gluten, lait</strong></p>
+            </article>
+            <article class="dish" data-dish="poivrons-marines" data-allergens="sulfites">
+              <div class="dish-head"><h3>Poivrons marinés à l'ail et à l'huile d'olive</h3><span class="price">7 €</span></div>
+              <p class="dish-desc">Plat végane.</p>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong> possibles (marinade)</p>
+            </article>
+            <article class="dish" data-dish="oeufs-carotte" data-allergens="oeufs,moutarde">
+              <div class="dish-head"><h3>Œufs carotte</h3><span class="price">7 €</span></div>
+              <p class="dish-desc">Œufs mollet, râpé de carotte, vinaigrette.</p>
+              <p class="dish-allergens">Allergènes : <strong>Œufs, moutarde</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- SANDWICHERIE -->
+        <section class="menu-section" id="sandwicherie">
+          <h2>Sandwicherie</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="le-tolier" data-allergens="gluten,lait,moutarde">
+              <div class="dish-head"><h3>« Le Tôlier » — Croque-Monsieur, salade</h3><span class="price">17 €</span></div>
+              <p class="dish-desc">Au choix : jambon, dinde ou végétarien.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, moutarde</strong></p>
+            </article>
+            <article class="dish" data-dish="le-bde" data-allergens="gluten,lait,oeufs,moutarde,sulfites">
+              <div class="dish-head"><h3>« Le BDE », Burger des Évadés</h3><span class="price">18 €</span></div>
+              <p class="dish-desc">Steak charolais ou galette de pomme de terre, fromage frais ail et fines herbes, comté tranché, pickles et confit d'oignons.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, œufs, moutarde, sulfites</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- LYONNAISERIE -->
+        <section class="menu-section" id="lyonnaiserie">
+          <h2>Lyonnaiserie</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="quenelle" data-allergens="gluten,lait,oeufs">
+              <div class="dish-head"><h3>Quenelle de volaille à l'ail des ours</h3><span class="price">21 €</span></div>
+              <p class="dish-desc">Légumes poêlés et sauce tomate mijotée. Cuisson 20 minutes.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, œufs</strong></p>
+            </article>
+            <article class="dish" data-dish="grande-lyonnaise" data-allergens="oeufs,gluten">
+              <div class="dish-head"><h3>La grande Lyonnaise</h3><span class="price">17 €</span></div>
+              <p class="dish-desc">Œufs parfaits, tranches de lard, croûtons.</p>
+              <p class="dish-allergens">Allergènes : <strong>Œufs, gluten</strong></p>
+            </article>
+            <article class="dish" data-dish="andouillette" data-allergens="moutarde,sulfites">
+              <div class="dish-head"><h3>Andouillette fraise de veau tirée à la ficelle « Maison Braillon »</h3><span class="price">21 €</span></div>
+              <p class="dish-desc">Sauce moutarde à l'ancienne et frites maison. Cuisson 15 minutes.</p>
+              <p class="dish-allergens">Allergènes : <strong>Moutarde</strong> — sulfites possibles (frites en friture partagée)</p>
+            </article>
+            <article class="dish" data-dish="saucisson-pistache" data-allergens="fruits-a-coque,lait,sulfites">
+              <div class="dish-head"><h3>Saucisson lyonnais pistaché</h3><span class="price">18 €</span></div>
+              <p class="dish-desc">Purée et crème de persillade.</p>
+              <p class="dish-allergens">Allergènes : <strong>Fruits à coque (pistache), lait, sulfites</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- LÉGUMERIE -->
+        <section class="menu-section" id="legumerie">
+          <h2>Légumerie</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="legumes-honneur" data-allergens="gluten">
+              <div class="dish-head"><h3>Légumes à l'honneur <em>(convient aux végans)</em></h3><span class="price">16 €</span></div>
+              <p class="dish-desc">Déclinaison de légumes cuisinés de trois façons et sa galette de pomme de terre.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten</strong> possible (galette) — sans lait ni œuf</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- BOUCHERIE -->
+        <section class="menu-section" id="boucherie">
+          <h2>Boucherie</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="saucisse-puree" data-allergens="lait,celeri">
+              <div class="dish-head"><h3>Saucisse purée</h3><span class="price">16 €</span></div>
+              <p class="dish-desc">Coupée au couteau, sans sel de nitrite, avec son bouillon.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait, céleri</strong> (bouillon)</p>
+            </article>
+            <article class="dish" data-dish="onglet-brillat" data-allergens="lait">
+              <div class="dish-head"><h3>Onglet de veau sauce Brillat-Savarin</h3><span class="price">20 €</span></div>
+              <p class="dish-desc">Sauce onctueuse au fromage Brillat-Savarin.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="tartare" data-allergens="sesame,oeufs">
+              <div class="dish-head"><h3>Tartare de bœuf coupé au couteau</h3><span class="price">20 €</span></div>
+              <p class="dish-desc">Pignons de pin, huile de sésame.</p>
+              <p class="dish-allergens">Allergènes : <strong>Sésame</strong>, œuf cru possible — pignons de pin (à signaler si allergie aux fruits à coque)</p>
+            </article>
+            <article class="dish" data-dish="vitello-tonnato" data-allergens="poissons,oeufs,moutarde">
+              <div class="dish-head"><h3>Vitello Tonnato</h3><span class="price">21 €</span></div>
+              <p class="dish-desc">Veau cuit à basse température, mayonnaise au thon et frites maison.</p>
+              <p class="dish-allergens">Allergènes : <strong>Poissons, œufs, moutarde</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- POISSONNERIE -->
+        <section class="menu-section" id="poissonnerie">
+          <h2>Poissonnerie</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="raie" data-allergens="poissons,lait">
+              <div class="dish-head"><h3>Raie au four</h3><span class="price">20 €</span></div>
+              <p class="dish-desc">Légumes poêlés et crème de cèpes. Cuisson 15 minutes.</p>
+              <p class="dish-allergens">Allergènes : <strong>Poissons, lait</strong></p>
+            </article>
+            <article class="dish" data-dish="fish-n-chips" data-allergens="poissons,gluten,oeufs">
+              <div class="dish-head"><h3>Fish n' Chips &amp; salade</h3><span class="price">17 €</span></div>
+              <p class="dish-desc">Frites maison et cœur de frisée.</p>
+              <p class="dish-allergens">Allergènes : <strong>Poissons, gluten, œufs</strong> (panure)</p>
+            </article>
+          </div>
+        </section>
+
+        <!-- POUR LES GONES -->
+        <section class="menu-section" id="gones">
+          <h2>Pour les Gones</h2>
+          <p class="section-note">Menu enfant, servi avec frites maison et sirop — 12 €.</p>
+          <div class="dish-list">
+            <article class="dish" data-dish="saucisse-puree-enfant" data-allergens="lait">
+              <div class="dish-head"><h3>Saucisse-Purée</h3><span class="price">12 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="croque-gone" data-allergens="gluten,lait">
+              <div class="dish-head"><h3>Croque-Gone</h3><span class="price">12 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait</strong></p>
+            </article>
+            <article class="dish" data-dish="petit-pane" data-allergens="poissons,gluten">
+              <div class="dish-head"><h3>Petit Pané (poisson)</h3><span class="price">12 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Poissons, gluten</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- FROMAGES -->
+        <section class="menu-section" id="fromages">
+          <h2>Fromages</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="faisselle" data-allergens="lait">
+              <div class="dish-head"><h3>Faisselle</h3><span class="price">5 €</span></div>
+              <p class="dish-desc">Nature, crème fraîche, crème de marron ou cassonnade.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="cervelle-canut-fromage" data-allergens="lait">
+              <div class="dish-head"><h3>Cervelle de canut</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="demi-saint-marcellin" data-allergens="lait">
+              <div class="dish-head"><h3>Demi Saint-Marcellin</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="saint-marcellin-entier" data-allergens="lait">
+              <div class="dish-head"><h3>Saint-Marcellin entier</h3><span class="price">9 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="trio-fromages" data-allergens="lait">
+              <div class="dish-head"><h3>Trio de fromages</h3><span class="price">9 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- DESSERTS -->
+        <section class="menu-section" id="desserts">
+          <h2>Desserts</h2>
+          <div class="dish-list">
+            <article class="dish" data-dish="creme-caramel" data-allergens="lait,oeufs">
+              <div class="dish-head"><h3>Crème caramel</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait, œufs</strong></p>
+            </article>
+            <article class="dish" data-dish="tarte-praline" data-allergens="gluten,lait,oeufs,fruits-a-coque">
+              <div class="dish-head"><h3>Tarte à la praline</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, œufs, fruits à coque</strong> (amande)</p>
+            </article>
+            <article class="dish" data-dish="tarte-citron" data-allergens="gluten,lait,oeufs">
+              <div class="dish-head"><h3>Tarte au citron</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, œufs</strong></p>
+            </article>
+            <article class="dish" data-dish="panna-cotta" data-allergens="lait">
+              <div class="dish-head"><h3>Panna cotta du moment</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Lait</strong></p>
+            </article>
+            <article class="dish" data-dish="pruneaux-vin" data-allergens="sulfites">
+              <div class="dish-head"><h3>Pruneaux au vin rouge</h3><span class="price">6 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+            <article class="dish" data-dish="flan" data-allergens="lait,oeufs,gluten">
+              <div class="dish-head"><h3>Flan des Évadés</h3><span class="price">6 €</span></div>
+              <p class="dish-desc">Vanille Bourbon.</p>
+              <p class="dish-allergens">Allergènes : <strong>Lait, œufs, gluten</strong></p>
+            </article>
+            <article class="dish" data-dish="fondant-chocolat" data-allergens="gluten,lait,oeufs">
+              <div class="dish-head"><h3>Fondant au chocolat</h3><span class="price">7 €</span></div>
+              <p class="dish-desc">Crème anglaise.</p>
+              <p class="dish-allergens">Allergènes : <strong>Gluten, lait, œufs</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <!-- VINS -->
+        <section class="menu-section" id="vins">
+          <h2>Vins au verre / pots</h2>
+          <p class="section-note">Tous nos vins contiennent des sulfites. Carte de la cave complète disponible sur demande.</p>
+          <div class="dish-list">
+            <article class="dish" data-dish="cotes-du-rhone" data-allergens="sulfites">
+              <div class="dish-head"><h3>Côtes du Rhône, Domaine de la Ligière</h3><span class="price">4,50 € / 16 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+            <article class="dish" data-dish="vacqueyras" data-allergens="sulfites">
+              <div class="dish-head"><h3>Vacqueyras, Domaine de la Ligière</h3><span class="price">6 € / 21 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+            <article class="dish" data-dish="viognier" data-allergens="sulfites">
+              <div class="dish-head"><h3>Viognier, Domaine de la Ligière</h3><span class="price">4,50 € / 16 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+            <article class="dish" data-dish="rose-mediterranee" data-allergens="sulfites">
+              <div class="dish-head"><h3>Vin de Méditerranée, Sud Absolu</h3><span class="price">4,50 € / 16 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+            <article class="dish" data-dish="champagne" data-allergens="sulfites">
+              <div class="dish-head"><h3>Champagne, J. Charpentier Brut</h3><span class="price">11 €</span></div>
+              <p class="dish-allergens">Allergènes : <strong>Sulfites</strong></p>
+            </article>
+          </div>
+        </section>
+
+        <p style="font-size:0.85rem;color:var(--ink-700);margin-top:32px;">Allergique ou intolérant(e) ? Notre équipe en cuisine reste à votre écoute — la liste officielle et détaillée des 14 allergènes reste disponible en salle sur simple demande.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> Les Évadés — Vieux-Lyon</span>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/allergy-checker.js"></script>
+</body>
+</html>
