@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="planTitle planDesc">
+  <title id="planTitle">Plan d'accès — Les Évadés</title>
+  <desc id="planDesc">Plan schématique du Vieux-Lyon situant le restaurant Les Évadés au 4 rue du Palais de Justice, entre la Saône et la cathédrale Saint-Jean.</desc>
+
+  <rect width="640" height="480" fill="#f6ecd6"/>
+
+  <!-- Saône -->
+  <path d="M470 -20 C 420 70, 545 150, 470 250 C 405 340, 555 380, 520 500 L 680 500 L 680 -20 Z" fill="#a7c0c1"/>
+  <text x="590" y="120" font-family="Georgia, 'Playfair Display', serif" font-size="15" fill="#5c7d7e" transform="rotate(90 590 120)">La Saône</text>
+
+  <!-- îlots (pâtés de maisons du Vieux-Lyon) -->
+  <g fill="#ecd9b3" stroke="#c9a86b" stroke-width="1.5">
+    <rect x="46" y="58" width="86" height="64" rx="5"/>
+    <rect x="150" y="40" width="72" height="58" rx="5"/>
+    <rect x="60" y="150" width="70" height="80" rx="5"/>
+    <rect x="150" y="140" width="90" height="70" rx="5"/>
+    <rect x="46" y="260" width="92" height="70" rx="5"/>
+    <rect x="160" y="250" width="80" height="86" rx="5"/>
+    <rect x="60" y="360" width="100" height="70" rx="5"/>
+    <rect x="190" y="352" width="78" height="66" rx="5"/>
+    <rect x="270" y="46" width="80" height="56" rx="5"/>
+    <rect x="360" y="60" width="60" height="60" rx="5"/>
+    <rect x="270" y="280" width="60" height="54" rx="5"/>
+    <rect x="340" y="300" width="66" height="56" rx="5"/>
+  </g>
+
+  <!-- rues -->
+  <g stroke="#8a6a3d" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M10 135 C 120 118, 230 150, 340 128 S 470 150, 560 132"/>
+    <path d="M40 20 C 46 150, 30 300, 55 460"/>
+    <path d="M255 20 L 250 460"/>
+    <path d="M10 245 C 130 232, 240 258, 360 236"/>
+    <path d="M10 345 C 140 330, 250 352, 380 332"/>
+  </g>
+  <text x="280" y="122" font-family="'Work Sans', sans-serif" font-size="12" fill="#6b4f28" transform="rotate(-4 280 122)">Rue Saint-Jean</text>
+  <text x="60" y="16" font-family="'Work Sans', sans-serif" font-size="12" fill="#6b4f28">Rue du Bœuf</text>
+
+  <!-- Quai le long de la Saône -->
+  <path d="M430 -20 C 395 90, 480 170, 415 260 C 370 330, 470 400, 440 500" stroke="#6b4f28" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <text x="450" y="420" font-family="'Work Sans', sans-serif" font-size="12" fill="#6b4f28" transform="rotate(72 450 420)">Quai Romain Rolland</text>
+
+  <!-- Cathédrale Saint-Jean -->
+  <g transform="translate(150,300)">
+    <rect x="-9" y="-9" width="18" height="18" fill="#63121a" stroke="#3a0c11" stroke-width="1.5"/>
+    <path d="M0 -9 L0 -18 M-5 -14 L5 -14" stroke="#3a0c11" stroke-width="1.5"/>
+    <text x="0" y="34" font-family="Georgia, 'Playfair Display', serif" font-size="13" fill="#3a0c11" text-anchor="middle">Cathédrale</text>
+    <text x="0" y="49" font-family="Georgia, 'Playfair Display', serif" font-size="13" fill="#3a0c11" text-anchor="middle">Saint-Jean</text>
+  </g>
+
+  <!-- boussole -->
+  <g transform="translate(580,56)">
+    <circle r="24" fill="#f6ecd6" stroke="#8a6a3d" stroke-width="2"/>
+    <path d="M0 -16 L6 0 L0 16 L-6 0 Z" fill="#4a0e14"/>
+    <text y="-30" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-weight="700" fill="#4a0e14" font-size="14">N</text>
+  </g>
+
+  <!-- repère : Les Évadés -->
+  <g transform="translate(300,190)">
+    <ellipse cx="0" cy="6" rx="16" ry="5" fill="rgba(22,17,13,0.25)"/>
+    <path d="M0 -38 C 19 -38 32 -25 32 -8 C 32 18 0 42 0 42 C 0 42 -32 18 -32 -8 C -32 -25 -19 -38 0 -38 Z" fill="#c62828" stroke="#7a1712" stroke-width="2.5"/>
+    <circle cx="0" cy="-8" r="11" fill="#fbf3e2"/>
+  </g>
+  <g transform="translate(300,138)">
+    <rect x="-78" y="-30" width="156" height="30" rx="15" fill="#16110d"/>
+    <text x="0" y="-9" text-anchor="middle" font-family="'Playfair Display', Georgia, serif" font-size="15" font-weight="700" fill="#d9a62e">Les Évadés</text>
+  </g>
+  <text x="300" y="240" text-anchor="middle" font-family="'Work Sans', sans-serif" font-size="12" fill="#3a0c11">4 rue du Palais de Justice</text>
+</svg>
